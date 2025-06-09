@@ -319,7 +319,7 @@ export default function CourseDetail() {
             </div>
           </div>
 
-          {enrollment && enrollment.status === "completed" ? (
+          {enrollment && enrollment.status === "completado" ? (
             <div className="bg-card border rounded-md overflow-hidden">
               <div className="p-4 bg-muted font-medium">Certificate</div>
               <div className="p-4">

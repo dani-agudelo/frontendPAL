@@ -1,6 +1,6 @@
 import { Document, Page, Text, View, StyleSheet } from "@react-pdf/renderer";
 import { ReportData } from "app/models/report_data.model";
-import { Student } from "app/models/student.model";
+import { StudentReport } from "app/models/student.report.model";
 
 const styles = StyleSheet.create({
   page: {
@@ -135,7 +135,7 @@ const ProgressBar = ({ progress }: { progress: number }) => (
 );
 
 // Función para calcular el promedio general
-const calculateAverageScore = (students: Student[]): number => {
+const calculateAverageScore = (students: StudentReport[]): number => {
   if (!students.length) return 0;
   const sum = students.reduce((acc, student) => acc + student.averageScore, 0);
   return sum / students.length;

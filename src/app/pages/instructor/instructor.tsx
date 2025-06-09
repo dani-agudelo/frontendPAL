@@ -1,4 +1,3 @@
-import { Outlet } from "react-router-dom";
 import { SidebarInset, SidebarProvider } from "root/components/ui/sidebar";
 import InstructorSidebar from "app/components/instructor/instructor.sidebar";
 import { Separator } from "root/components/ui/separator";

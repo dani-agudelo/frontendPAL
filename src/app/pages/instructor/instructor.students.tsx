@@ -79,7 +79,7 @@ export default function InstructorStudents() {
   const [selectedCourseId, setSelectedCourseId] = useState<string>("all");
   const [searchTerm, setSearchTerm] = useState("");
   const [statusFilter, setStatusFilter] = useState<string>("all");
-  const [students, setStudents] = useState(mockStudents);
+  const [students] = useState(mockStudents);
   const [filteredStudents, setFilteredStudents] = useState(mockStudents);
   const [isLoading, setIsLoading] = useState(true);
 

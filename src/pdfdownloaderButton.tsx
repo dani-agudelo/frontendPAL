@@ -1,6 +1,5 @@
 import { useState } from "react";
 import type { ReportData } from "app/models/report_data.model";
-import reportService from "app/services/report.service";
 
 interface PDFDownloadButtonProps {
   reportData: ReportData;
